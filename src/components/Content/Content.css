@@ -1,0 +1,102 @@
+.content{
+    display: flex;
+    justify-content: center;
+    max-width: 950px;
+}
+.content__column-main{
+    max-width: 604px;
+    border: 2px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    border-color: #D6D0AB;
+    padding: 32px 32px 32px 32px;
+    background-color: #F8F4E0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content__title{
+    font: bold 16px Georgia;
+    color: #000;
+    margin-bottom: 32px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 1em;
+}
+.content__letter-search-list{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.content__letter-link{
+    text-decoration: none;
+    color:#493C2F;
+    margin-right: 10px;
+}
+.content__table{}
+.content__table-header{}
+.content__column-search{
+    max-width: 210px;
+    border: 2px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    border-color: #D6D0AB;
+    padding: 24px 24px 24px 24px;
+    background-color: #F8F4E0;
+    margin-left: 16px;
+}
+.content__form{
+
+}
+.content__input{
+    font: bold 13pt Times;
+    background-color: white;
+    color: #493C2F;
+    border: 4px solid #D6D0AB;
+    min-width: 200px;
+    padding-left: 4px;
+}
+.content__themes{
+    font: bold 17px Times;
+    margin: 16px 0;
+    padding: 16px 0;
+    border-bottom: 1px dashed #D6D0AB;
+    border-top: 1px dashed #D6D0AB;
+    max-width: 210px;
+}
+.content__theme-link{
+    font: normal 15px Times;
+    text-decoration: none;
+    color: #493C2F;
+    margin-bottom: 3px;
+
+}
+.content__similar-articles{
+    font: bold 17px Times;
+    list-style: none;
+    padding-left: 0;
+}
+.content__article{
+    font: normal 15px Times;
+    margin: 10px 0;
+    color: #493C2F;
+}
+.content__article-span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #493C2F;
+}
+.content__this-day{
+
+}
+.content__city{}
+.content__form-select{
+    font: bold 13pt Times;
+    background-color: white;
+    color: #493C2F;
+    border: 4px solid #D6D0AB;
+    width: 215px;
+}
