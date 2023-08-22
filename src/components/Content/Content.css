@@ -17,7 +17,7 @@
     align-items: center;
 }
 .content__title{
-    font: bold 16px Georgia;
+    font: bold 22px Georgia;
     color: #000;
     margin-bottom: 32px;
     -webkit-margin-before: 0;
@@ -28,14 +28,22 @@
     display: flex;
     padding: 0;
     margin: 0;
+    font: normal 17px/21px Times;
 }
 .content__letter-link{
     text-decoration: none;
     color:#493C2F;
     margin-right: 10px;
 }
-.content__table{}
-.content__table-header{}
+.content__table{
+   
+    
+}
+.content__table-header{
+    display: flex;
+    gap: 10px;
+    font: bold 17px/21px Times;
+}
 .content__column-search{
     max-width: 210px;
     border: 2px;
@@ -50,6 +58,14 @@
 .content__form{
 
 }
+.content__dash{
+    margin: 5px 0;
+}
+.content__dash-image{
+    object-fit: cover;
+    max-width: 100%;
+    box-sizing: border-box; 
+}
 .content__input{
     font: bold 13pt Times;
     background-color: white;
@@ -59,42 +75,47 @@
     padding-left: 4px;
 }
 .content__themes{
-    font: bold 17px Times;
-    margin: 16px 0;
-    padding: 16px 0;
-    border-bottom: 1px dashed #D6D0AB;
-    border-top: 1px dashed #D6D0AB;
-    max-width: 210px;
+    font: bold 17px/21px Times;
+    max-width: 200px;
+    text-align: center;
 }
 .content__theme-link{
-    font: normal 15px Times;
+    font: normal 17px/21px Times;
     text-decoration: none;
     color: #493C2F;
     margin-bottom: 3px;
 
 }
 .content__similar-articles{
-    font: bold 17px Times;
+    font: bold 17px/22.5px Times;
     list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 .content__article{
-    font: normal 15px Times;
+    font: normal 17px/22.5px Times;
     margin: 10px 0;
     color: #493C2F;
 }
 .content__article-span{
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    color: #493C2F;
 }
 .content__this-day{
+    font: bold 17px/22.5px Times;
+    text-align: center;
+}
+.content__city{
+    margin: 16px 0;
+    text-align: center;
+    font: bold 17px/22.5px Times;
+}
+.content__city-link{
+    text-decoration: none;
+    color: #493C2F;
 
 }
-.content__city{}
 .content__form-select{
-    font: bold 13pt Times;
+    font: bold 17px Times;
     background-color: white;
     color: #493C2F;
     border: 4px solid #D6D0AB;

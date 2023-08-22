@@ -1,5 +1,6 @@
 import "./Content.css";
 import { Link } from "react-router-dom";
+import dash from "../../images/dash.png";
 
 function Content() {
   return (
@@ -53,9 +54,12 @@ function Content() {
             placeholder="Поиск..."
           />
         </form>
+        <div className="content__dash">
+          <img className="content__dash-image" src={dash} alt="dash" />
+        </div>
         <div className="content__themes">
           Темы:
-          <Link className="content__theme-link">Игры, </Link>
+          <Link className="content__theme-link"> Игры, </Link>
           <Link className="content__theme-link">Программное обеспечение, </Link>
           <Link className="content__theme-link">Пресса, </Link>
           <Link className="content__theme-link">Аппаратное обеспечение, </Link>
@@ -64,29 +68,48 @@ function Content() {
           <Link className="content__theme-link">Люди, </Link>
           <Link className="content__theme-link">Программирование</Link>
         </div>
+        <div className="content__dash">
+          <img className="content__dash-image" src={dash} alt="dash" />
+        </div>
         <ul className="content__similar-articles">
           Похожие статьи:
           <li className="content__article">
             {/* временно для верстки */}
+            <span className="content__article-span">IS-DOS </span>- "IS-DOS -
+            начинающим" No 3
+          </li>
+          <li className="content__article">
             <span className="content__article-span">И снова party - </span>Cafe
             2003: контактные адреса.
           </li>
           <li className="content__article">
-            И снова party - Cafe 2003: контактные адреса.
+            <span className="content__article-span">И снова party - </span>Cafe
+            2003: контактные адреса.
           </li>
           <li className="content__article">
-            И снова party - Cafe 2003: контактные адреса.
-          </li>
-          <li className="content__article">
-            И снова party - Cafe 2003: контактные адреса.
+            <span className="content__article-span">И снова party - </span>Cafe
+            2003: контактные адреса.
           </li>
         </ul>
+        <div className="content__dash">
+          <img className="content__dash-image" src={dash} alt="dash" />
+        </div>
         <div className="content__this-day">
-          В этот день... {new Date().getDate()} {new Date().getMonth("ru")}{" "}
-          {/* как месяц прописать? */}
+          В этот день...&nbsp; {new Date().getDate()} августа
+          {/* {new Date().getMonth("ru")} как месяц прописать? */}
           <div className="content__city">
-            City #25 {/* временно для верстки */}
+            <Link className="content__city-link">
+              ACNews #22, {/* временно для верстки */}
+            </Link>
+            <Link className="content__city-link">Full Pull #08, </Link>
+            <Link className="content__city-link">Plutonium #19, </Link>
+            <Link className="content__city-link">KrNews #10, </Link>
+            <Link className="content__city-link">Nicron #49, </Link>
+            <Link className="content__city-link">Nicron #48</Link>
           </div>
+        </div>
+        <div className="content__dash">
+          <img className="content__dash-image" src={dash} alt="dash" />
         </div>
         <form className="content__form">
           <select class="content__form-select" name="id">
