@@ -1,0 +1,40 @@
+.content__table-catalog{
+  display: flex;
+  align-items: baseline;
+  font: normal 17px/21px Times;
+}
+.content__table-link{
+  width: 165px;
+  text-decoration: none;
+  color: #493C2F;
+  font-weight: bold;
+}
+.content__table-number{
+  vertical-align: super;
+  font: normal 12px Arial;
+  color: #aaa;
+  padding-left: 2px; 
+}
+.content__table-city{
+  width: 133px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.content__table-flag{
+  padding: 1px 1px 1px 1px;
+  margin-right: 3px;
+  opacity: 0.7;
+  width: 16px;
+  height: 10px;
+}
+.content__table-form{
+  width: 137px;
+  display: flex;
+  justify-content: flex-start;
+}
+.content__table-years{
+  width: 105px;
+  display: flex;
+  justify-content: flex-end;
+}

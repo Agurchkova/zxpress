@@ -1,0 +1,35 @@
+.content__column-main{
+  max-width: 604px;
+  border: 2px;
+  border-left: 3px;
+  border-right: 3px;
+  border-style: solid;
+  border-color: #D6D0AB;
+  padding: 32px 32px 32px 32px;
+  background-color: #F8F4E0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__title{
+  font: bold 22px Georgia;
+  color: #000;
+  margin-bottom: 32px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 1em;
+}
+.content__letter-search-list{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font: normal 17px/21px Times;
+}
+.content__letter-link{
+  text-decoration: none;
+  color:#493C2F;
+  margin-right: 12px;
+}
+.content__letter-link:last-child{
+  margin-right: 0;
+}
