@@ -2,9 +2,10 @@
   display: flex;
   align-items: baseline;
   font: normal 17px/21px Times;
+  margin: 3px 0;
 }
 .content__table-link{
-  width: 165px;
+  width: 172px;
   text-decoration: none;
   color: #493C2F;
   font-weight: bold;
@@ -18,8 +19,8 @@
 .content__table-city{
   width: 133px;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  white-space: nowrap;
 }
 .content__table-flag{
   padding: 1px 1px 1px 1px;
@@ -31,7 +32,7 @@
 .content__table-form{
   width: 137px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 .content__table-years{
   width: 105px;

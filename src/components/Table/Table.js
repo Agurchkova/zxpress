@@ -8,10 +8,10 @@ function Table() {
     <>
       <div className="content__table">
         <div className="content__table-header">
-          <p className="contnent__table-name">Название</p>
-          <p className="contnent__table-name">Город</p>
-          <p className="contnent__table-name">Форма</p>
-          <p className="contnent__table-name">Года издания</p>
+          <p className="content__table-name">Название</p>
+          <p className="content__table-name">Город</p>
+          <p className="content__table-name">Форма</p>
+          <p className="content__table-name">Года издания</p>
         </div>
         <TableCatalog />
         <div className="content__dash-long">

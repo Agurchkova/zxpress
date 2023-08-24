@@ -38,16 +38,21 @@ function ColumnSearch() {
           начинающим" No 3
         </li>
         <li className="content__article">
-          <span className="content__article-span">И снова party - </span>Cafe
-          2003: контактные адреса.
+          <span className="content__article-span">Открытие - </span> Электронный
+          офис - концепция WANG Freestyle-Handset.
         </li>
         <li className="content__article">
-          <span className="content__article-span">И снова party - </span>Cafe
-          2003: контактные адреса.
+          <span className="content__article-span">Хоббит - </span>
+          прохождение Адвентюрной игры "Хоббит, или Путешествие туда и обратно".
         </li>
         <li className="content__article">
-          <span className="content__article-span">И снова party - </span>Cafe
-          2003: контактные адреса.
+          <span className="content__article-span">Программирование - </span>
+          Качесвенная процедура конверсия ZX картинки в ASCII.
+        </li>
+        <li className="content__article">
+          <span className="content__article-span">Реклама - </span>о начале
+          подготовки к выходу в свет литературно-художественного журнала в среде
+          IS-DOS "ФАНТАДРОМ"
         </li>
       </ul>
       <div className="content__dash">

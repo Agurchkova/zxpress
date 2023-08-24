@@ -6,13 +6,27 @@
 }
 .content__table-header{
   display: flex;
-  gap: 90px;
+  gap: 5px;
   font: bold 17px/21px Times;
-  margin: 5px 0;
+  margin: 4px 0;
 }
-.contnent__table-name{
-  max-width: 214px;
+.content__table-name{
+  max-width: 150px;
   margin: 0;
+}
+.content__table-name:nth-of-type(1){
+  min-width: 190px;
+}
+.content__table-name:nth-of-type(2){
+  min-width: 167px;
+}
+.content__table-name:nth-of-type(3){
+  min-width: 72px;
+  display: flex;
+  justify-content: flex-start;
+}
+.content__table-name:nth-of-type(4){
+  min-width: 106px;
 }
 .content__dash-long{
   margin: 40px 0 0 0;

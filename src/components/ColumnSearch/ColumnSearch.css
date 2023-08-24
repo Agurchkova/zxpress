@@ -51,6 +51,9 @@
   margin: 10px 0;
   color: #493C2F;
 }
+.content__article:last-child{
+  margin: 10px 0 0 0;
+}
 .content__article-span{
   font-weight: 700;
 }
