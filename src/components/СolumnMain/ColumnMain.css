@@ -5,14 +5,14 @@
   border-right: 3px;
   border-style: solid;
   border-color: #D6D0AB;
-  padding: 32px 32px 32px 32px;
+  padding: 32px;
   background-color: #F8F4E0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .content__title{
-  font: bold 22px Georgia;
+  font: bold 21px Georgia;
   color: #000;
   margin-bottom: 32px;
   -webkit-margin-before: 0;
@@ -21,6 +21,8 @@
 .content__letter-search-list{
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 0;
   margin: 0;
   font: normal 17px/21px Times;
@@ -32,4 +34,53 @@
 }
 .content__letter-link:last-child{
   margin-right: 0;
+}
+
+@media screen and (max-width: 980px) {
+  .content__column-main {
+    max-width: 494px;
+    padding: 24px;
+}
+  .content__title{
+    font: bold 18px Georgia;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .content__column-main {
+      max-width: 423px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .content__column-main {
+      max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .content__column-main {
+      max-width: 200px;
+      padding: 14px;
+  }
+  .content__letter-search-list{
+    font: normal 15px/19px Times;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .content__column-main {
+      max-width: 165px;
+      padding: 15px;
+  }
+
+  .content__title{
+    font: bold 16px Georgia;
+    text-align: center;
+  }
+
+  .content__letter-search-list{
+    font: normal 10px/13px Times;
+  }
 }

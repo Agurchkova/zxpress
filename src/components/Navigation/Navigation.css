@@ -25,3 +25,15 @@
   text-decoration: none;
   color: #080402;
 }
+
+@media screen and (max-width: 980px) {
+  .navigation {
+    font: normal 18px/26px Times;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .navigation {
+    font: normal 16px/24px Times;
+  }
+}

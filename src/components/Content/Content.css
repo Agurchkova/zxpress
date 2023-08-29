@@ -3,3 +3,16 @@
     justify-content: center;
     max-width: 950px;
 }
+
+
+@media screen and (max-width: 980px) {
+    .content {
+        max-width: 800px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .content {
+        max-width: 500px;
+    }
+  }

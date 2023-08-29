@@ -9,9 +9,6 @@
   background-color: #F8F4E0;
   margin-left: 16px;
 }
-.content__form{
-
-}
 .content__dash{
   margin: 5px 0;
 }
@@ -21,11 +18,11 @@
   box-sizing: border-box; 
 }
 .content__input{
-  font: bold 13pt Times;
+  font: bold 17px Times;
   background-color: white;
   color: #493C2F;
   border: 4px solid #D6D0AB;
-  min-width: 200px;
+  width: 90%;
   padding-left: 4px;
 }
 .content__themes{
@@ -38,7 +35,6 @@
   text-decoration: none;
   color: #493C2F;
   margin-bottom: 3px;
-
 }
 .content__similar-articles{
   font: bold 17px/22.5px Times;
@@ -46,6 +42,7 @@
   padding-left: 0;
   margin: 0;
 }
+
 .content__article{
   font: normal 17px/22.5px Times;
   margin: 10px 0;
@@ -76,5 +73,82 @@
   background-color: white;
   color: #493C2F;
   border: 4px solid #D6D0AB;
-  width: 215px;
+  width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+  .content__column-search {
+      max-width: 202px;
+      margin: 0 0 0 12px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .content__column-search {
+      max-width: 173px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .content__column-search  {
+      max-width: 110px;
+      margin: 0 0 0 9px;
+      padding: 16px;
+  }
+  .content__form-select {
+    font: bold 12px Times;
+    text-overflow: ellipsis;
+  }
+  .content__input{
+    font: bold 12px Times;
+  }
+  .content__themes{
+    font: bold 14px/19px Times;
+  }
+  .content__theme-link{
+    font: normal 14px/19px Times;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .content__column-search {
+      max-width: 90px;
+  }
+  .content__themes{
+    font: bold 13px/15px Times;
+  }
+
+  .content__theme-link{
+    font: normal 12px/14px Times;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .content__column-search {
+      padding: 10px;
+      margin: 0 0 0 5px;
+      max-width: 80px;
+  }
+
+  .content__input{
+    font: bold 11px Times;
+    max-width: 80px;
+    padding-left: 2px;
+  }
+
+  .content__theme-link{
+    font: normal 14px/18px Times;
+  }
+
+  .content__themes{
+    font: bold 12px/15px Times;
+  }
+
+  .content__theme-link{
+    font: normal 10px/13px Times;
+  }
+
+  .content__similar-articles{
+    font: bold 15px/20px Times;
+  }
 }

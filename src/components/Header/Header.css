@@ -1,6 +1,24 @@
 .header {
     display: flex;
     justify-content: flex-end;
-    margin: 10px 0 20px;
+    margin: 10px auto 20px;
     width: 950px;
 }
+
+@media screen and (max-width: 980px) {
+    .header {
+        width: 800px;
+    }
+  }
+  
+@media screen and (max-width: 840px) {
+    .header {
+        width: 716px;
+    }
+  }
+
+@media screen and (max-width: 740px) {
+    .header {
+        display: none;
+    }
+  }
