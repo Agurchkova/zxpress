@@ -91,8 +91,8 @@
 
 @media screen and (max-width: 740px) {
   .content__column-search  {
-      max-width: 110px;
-      margin: 0 0 0 9px;
+      max-width: 115px;
+      margin: 0 0 0 7px;
       padding: 16px;
   }
   .content__form-select {
@@ -108,11 +108,33 @@
   .content__theme-link{
     font: normal 14px/19px Times;
   }
+
+  .content__similar-articles{
+    font: bold 15px/19px Times;
+  }
+
+  .content__article{
+    font: normal 14px/16px Times;
+    margin: 7px 0;
+  }
+
+  .content__this-day {
+    font: bold 14px/19px Times;
+  }
+
+  .content__city {
+    margin: 16px 0;
+    font: bold 15px/19px Times;
+  }
+
+  .content__form-select {
+    font: bold 12px Times;
+  }
 }
 
 @media screen and (max-width: 580px) {
   .content__column-search {
-      max-width: 90px;
+      max-width: 100px;
   }
   .content__themes{
     font: bold 13px/15px Times;
@@ -121,17 +143,39 @@
   .content__theme-link{
     font: normal 12px/14px Times;
   }
+
+  .content__similar-articles{
+    font: bold 13px/15px Times;
+  }
+
+  .content__article{
+    font: normal 12px/13px Times;
+    margin: 7px 0;
+  }
+
+  .content__this-day {
+    font: bold 12px/19px Times;
+  }
+
+  .content__city {
+    margin: 16px 0;
+    font: bold 15px/19px Times;
+  }
+
+  .content__form-select {
+    font: bold 12px Times;
+  }
 }
 
 @media screen and (max-width: 420px) {
   .content__column-search {
       padding: 10px;
-      margin: 0 0 0 5px;
-      max-width: 80px;
+      margin: 0 0 0 3px;
+      max-width: 84px;
   }
 
   .content__input{
-    font: bold 11px Times;
+    font: bold 10px Times;
     max-width: 80px;
     padding-left: 2px;
   }
@@ -141,7 +185,7 @@
   }
 
   .content__themes{
-    font: bold 12px/15px Times;
+    font: bold 13px/15px Times;
   }
 
   .content__theme-link{
@@ -149,6 +193,24 @@
   }
 
   .content__similar-articles{
-    font: bold 15px/20px Times;
+    font: bold 13px/16px Times;
+  }
+
+  .content__article{
+    font: normal 10px/11px Times;
+    margin: 7px 0;
+  }
+
+  .content__this-day {
+    font: bold 10px/16px Times;
+  }
+
+  .content__city {
+    margin: 16px 0;
+    font: bold 13px/16px Times;
+  }
+
+  .content__form-select {
+    font: bold 10px Times;
   }
 }

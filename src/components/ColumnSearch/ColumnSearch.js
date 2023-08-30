@@ -47,7 +47,7 @@ function ColumnSearch() {
         </li>
         <li className="content__article">
           <span className="content__article-span">Программирование - </span>
-          Качесвенная процедура конверсия ZX картинки в ASCII.
+          Качественная процедура конверсия ZX картинки в ASCII.
         </li>
         <li className="content__article">
           <span className="content__article-span">Реклама - </span>о начале

@@ -1,91 +1,105 @@
 import "./TableCatalog.css";
 import { Link } from "react-router-dom";
-import russia_flag from "../../images/russia_flag.png";
+import russian_flag from "../../images/russian_flag.png";
 import ukranian_flag from "../../images/ukranian_flag.png";
 
 function TableCatalog() {
   return (
     <>
-      <div className="content__table-catalog">
-        <Link className="content__table-link">
-          #Z80
-          <span className="content__table-number">6</span>
-        </Link>
-        <div className="content__table-city">
+      <tbody className="content__table-catalog">
+        <td className="content__table-cell">
+          <Link className="content__table-link">
+            #Z80
+            <span className="content__table-number">6</span>
+          </Link>
+        </td>
+        <td className="content__table-cell">
           <img
             className="content__table-flag"
-            src={russia_flag}
+            src={russian_flag}
             alt="Флаг России"
           />
           Пермь
-        </div>
-        <div className="content__table-form">газета</div>
-        <div className="content__table-years">1998-2000</div>
-      </div>
-      <div className="content__table-catalog">
-        <Link className="content__table-link">
-          20
-          <span className="content__table-number">5</span>
-        </Link>
-        <div className="content__table-city">
+        </td>
+        <td className="content__table-cell">газета</td>
+        <td className="content__table-cell">1998-2000</td>
+      </tbody>
+
+      <tbody className="content__table-catalog">
+        <td className="content__table-cell">
+          <Link className="content__table-link">
+            20
+            <span className="content__table-number">5</span>
+          </Link>
+        </td>
+        <td className="content__table-cell">
           <img
             className="content__table-flag"
-            src={russia_flag}
+            src={russian_flag}
             alt="Флаг России"
           />
           Москва
-        </div>
-        <div className="content__table-form">газета</div>
-        <div className="content__table-years">1999-2001</div>
-      </div>
-      <div className="content__table-catalog">
-        <Link className="content__table-link">
-          200
-          <span className="content__table-number">5</span>
-        </Link>
-        <div className="content__table-city">
+        </td>
+        <td className="content__table-cell">газета</td>
+        <td className="content__table-cell">1999-2001</td>
+      </tbody>
+
+      <tbody className="content__table-catalog">
+        <td className="content__table-cell">
+          <Link className="content__table-link">
+            200
+            <span className="content__table-number">5</span>
+          </Link>
+        </td>
+        <td className="content__table-cell content__table-cell_wrap">
           <img
             className="content__table-flag"
-            src={russia_flag}
+            src={russian_flag}
             alt="Флаг России"
           />
           Санкт-Петербург
-        </div>
-        <div className="content__table-form">газета</div>
-        <div className="content__table-years">1994-1995</div>
-      </div>
-      <div className="content__table-catalog">
-        <Link className="content__table-link">
-          3Bit
-          <span className="content__table-number">1</span>
-        </Link>
-        <div className="content__table-city">
+        </td>
+        <td className="content__table-cell">газета</td>
+        <td className="content__table-cell">1994-1995</td>
+      </tbody>
+
+      <tbody className="content__table-catalog">
+        <td className="content__table-cell">
+          <Link className="content__table-link">
+            3Bit
+            <span className="content__table-number">1</span>
+          </Link>
+        </td>
+        <td className="content__table-cell">
           <img
             className="content__table-flag"
             src={ukranian_flag}
-            alt="Флаг России"
+            alt="Флаг Украины"
           />
           Харьков
-        </div>
-        <div className="content__table-form">журнал</div>
-        <div className="content__table-years">2005</div>
-      </div>
-      <div className="content__table-catalog">
-        <Link className="content__table-link">
-          47th Byte
-          <span className="content__table-number">5</span>
-        </Link>
-        <div className="content__table-city">
+        </td>
+        <td className="content__table-cell">журнал</td>
+        <td className="content__table-cell">2005</td>
+      </tbody>
+
+      <tbody className="content__table-catalog">
+        <td className="content__table-cell">
+          <Link className="content__table-link">
+            47th Byte
+            <span className="content__table-number">5</span>
+          </Link>
+        </td>
+        <td className="content__table-cell">
           <img
             className="content__table-flag"
-            src={russia_flag}
+            src={russian_flag}
             alt="Флаг России"
           />
           Москва
-        </div>
-        <div className="content__table-form">газета</div>
-        <div className="content__table-years"></div>
-      </div>
+        </td>
+        <td className="content__table-cell">газета</td>
+        <td className="content__table-cell"></td>
+      </tbody>
     </>
   );
 }

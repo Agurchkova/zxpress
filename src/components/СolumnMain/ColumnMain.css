@@ -22,7 +22,6 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   padding: 0;
   margin: 0;
   font: normal 17px/21px Times;
@@ -39,7 +38,7 @@
 @media screen and (max-width: 980px) {
   .content__column-main {
     max-width: 494px;
-    padding: 24px;
+    padding: 15px;
 }
   .content__title{
     font: bold 18px Georgia;
@@ -62,17 +61,17 @@
 @media screen and (max-width: 580px) {
   .content__column-main {
       max-width: 200px;
-      padding: 14px;
+      padding: 13px;
   }
   .content__letter-search-list{
-    font: normal 15px/19px Times;
+    font: normal 13px/17px Times;
   }
 }
 
 @media screen and (max-width: 420px) {
   .content__column-main {
       max-width: 165px;
-      padding: 15px;
+      padding: 10px;
   }
 
   .content__title{
