@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .content__title{
   font: bold 21px Georgia;
   color: #000;
@@ -18,6 +19,7 @@
   -webkit-margin-before: 0;
   -webkit-margin-after: 1em;
 }
+
 .content__letter-search-list{
   list-style: none;
   display: flex;
@@ -26,11 +28,13 @@
   margin: 0;
   font: normal 17px/21px Times;
 }
+
 .content__letter-link{
   text-decoration: none;
   color:#493C2F;
   margin-right: 12px;
 }
+
 .content__letter-link:last-child{
   margin-right: 0;
 }
@@ -60,8 +64,8 @@
 
 @media screen and (max-width: 580px) {
   .content__column-main {
-      max-width: 200px;
-      padding: 13px;
+      max-width: 210px;
+      padding: 10px;
   }
   .content__letter-search-list{
     font: normal 13px/17px Times;

@@ -74,6 +74,7 @@
     font: bold 8px/12px Times;
     width: 210px;
   }
+
   .content__table {
     padding: 0;
     margin: 20px 0 0 0;
@@ -82,15 +83,20 @@
   .content__table-name {
     width: 1%;
   }
+
   .content__table-name:nth-of-type(4) {
     width: 2%;
   }
+
+  .content__title {
+    font: bold 14px Georgia;
+}
 }
 
 @media screen and (max-width: 420px) {
   .content__table-header {
     font: bold 9px/11px Times;
-    width: 175px;
+    width: 170px;
   }
 
   .content__table{

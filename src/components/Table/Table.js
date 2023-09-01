@@ -17,7 +17,6 @@ function Table() {
         </thead>
         <TableCatalog />
       </table>
-
       <div className="content__dash-long">
         <img className="content__dash-image" src={dashLong} alt="dash" />
       </div>

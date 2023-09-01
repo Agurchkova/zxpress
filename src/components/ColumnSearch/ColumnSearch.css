@@ -14,8 +14,9 @@
 }
 .content__dash-image{
   object-fit: cover;
-  max-width: 100%;
-  box-sizing: border-box; 
+  max-width: 98%;
+  box-sizing: border-box;
+  margin-left: 10px;
 }
 .content__input{
   font: bold 17px Times;
@@ -165,6 +166,11 @@
   .content__form-select {
     font: bold 12px Times;
   }
+
+  .content__dash-image {
+    max-width: 100%;
+    margin-left: 0;
+}
 }
 
 @media screen and (max-width: 420px) {
