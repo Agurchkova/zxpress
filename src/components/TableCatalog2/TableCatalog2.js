@@ -1,15 +1,16 @@
-import "./TableCatalog.css";
+import "./TableCatalog2.css";
 import { Link } from "react-router-dom";
 import russian_flag from "../../images/russian_flag.png";
 import ukranian_flag from "../../images/ukranian_flag.png";
+import belorussian_flag from "../../images/belorussia_flag.png";
 
-function TableCatalog() {
+function TableCatalog2() {
   return (
     <>
       <tbody className="content__table-catalog">
         <td className="content__table-cell">
-          <Link className="content__table-link link-hover">#Z80</Link>
-          <span className="content__table-number">6</span>
+          <Link className="content__table-link link-hover">Acid Paper</Link>
+          <span className="content__table-number">4</span>
         </td>
         <td className="content__table-cell">
           <div className="content__table-border">
@@ -19,15 +20,15 @@ function TableCatalog() {
               alt="Флаг России"
             />
           </div>
-          Пермь
+          Арзамас
         </td>
         <td className="content__table-cell">газета</td>
-        <td className="content__table-cell">1998-2000</td>
+        <td className="content__table-cell">2000</td>
       </tbody>
       <tbody className="content__table-catalog">
         <td className="content__table-cell">
-          <Link className="content__table-link link-hover">20</Link>
-          <span className="content__table-number">5</span>
+          <Link className="content__table-link link-hover">ACNews</Link>
+          <span className="content__table-number">68</span>
         </td>
         <td className="content__table-cell">
           <div className="content__table-border">
@@ -37,14 +38,14 @@ function TableCatalog() {
               alt="Флаг России"
             />
           </div>
-          Москва
+          Рязань
         </td>
         <td className="content__table-cell">газета</td>
-        <td className="content__table-cell">1999-2001</td>
+        <td className="content__table-cell">2001-2020</td>
       </tbody>
       <tbody className="content__table-catalog">
         <td className="content__table-cell">
-          <Link className="content__table-link link-hover">200</Link>
+          <Link className="content__table-link link-hover">Adenturer</Link>
           <span className="content__table-number">5</span>
         </td>
         <td className="content__table-cell content__table-cell_wrap">
@@ -55,33 +56,14 @@ function TableCatalog() {
               alt="Флаг России"
             />
           </div>
-          Санкт-Петербург
-        </td>
-        <td className="content__table-cell">газета</td>
-        <td className="content__table-cell">1994-1995</td>
-      </tbody>
-
-      <tbody className="content__table-catalog">
-        <td className="content__table-cell">
-          <Link className="content__table-link link-hover">3Bit</Link>
-          <span className="content__table-number">1</span>
-        </td>
-        <td className="content__table-cell">
-          <div className="content__table-border">
-            <img
-              className="content__table-flag"
-              src={ukranian_flag}
-              alt="Флаг Украины"
-            />
-          </div>
-          Харьков
+          Рыбинск
         </td>
         <td className="content__table-cell">журнал</td>
-        <td className="content__table-cell">2005</td>
+        <td className="content__table-cell">1995-2004</td>
       </tbody>
       <tbody className="content__table-catalog">
         <td className="content__table-cell">
-          <Link className="content__table-link link-hover">47th Byte</Link>
+          <Link className="content__table-link link-hover">All Paper</Link>
           <span className="content__table-number">1</span>
         </td>
         <td className="content__table-cell">
@@ -92,13 +74,31 @@ function TableCatalog() {
               alt="Флаг России"
             />
           </div>
-          Москва
+          Санкт-Петербург
         </td>
         <td className="content__table-cell">газета</td>
         <td className="content__table-cell"></td>
+      </tbody>
+      <tbody className="content__table-catalog">
+        <td className="content__table-cell">
+          <Link className="content__table-link link-hover">Always</Link>
+          <span className="content__table-number">3</span>
+        </td>
+        <td className="content__table-cell">
+          <div className="content__table-border">
+            <img
+              className="content__table-flag"
+              src={belorussian_flag}
+              alt="Флаг Белоруссии"
+            />
+          </div>
+          Минск
+        </td>
+        <td className="content__table-cell">газета</td>
+        <td className="content__table-cell">1999-2000</td>
       </tbody>
     </>
   );
 }
 
-export default TableCatalog;
+export default TableCatalog2;

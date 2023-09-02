@@ -15,17 +15,18 @@
 .content__title{
   font: bold 21px Georgia;
   color: #000;
-  margin-bottom: 32px;
   -webkit-margin-before: 0;
   -webkit-margin-after: 1em;
+  margin: 0;
 }
 
 .content__letter-search-list{
   list-style: none;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
+  padding-left: 10px;
+  margin: 32px 0 0;
   font: normal 17px/21px Times;
 }
 
@@ -33,6 +34,10 @@
   text-decoration: none;
   color:#493C2F;
   margin-right: 12px;
+}
+
+.content__letter-link:hover{
+  border-bottom: 2px solid #493C2F;
 }
 
 .content__letter-link:last-child{

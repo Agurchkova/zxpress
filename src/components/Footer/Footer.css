@@ -1,0 +1,126 @@
+.footer{
+  padding-top: 128px;
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+  background: url(../../images/dear_dizzy_sepia4.png) bottom right no-repeat;
+  margin: 0 auto;
+}
+
+.footer__copyright{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  padding: 16px;
+}
+
+.footer__info{
+  margin: 0;
+  font: normal 17px/15px Times;
+}
+
+.footer__info_bold{
+  font: bold 17px/15px Times;
+}
+
+.footer__terms{
+  font: italic 15px/25px Times;
+}
+
+@media screen and (max-width: 980px) {
+  .footer{
+    width: 798px;
+    background-size: 34%;
+  }
+
+  .footer__info{
+    font: normal 14px/13px Times;
+  }
+  
+  .footer__info_bold{
+    font: bold 14px/13px Times;;
+  }
+  
+  .footer__terms{
+    font: italic 13px/23px Times;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .footer{
+    width: 698px;
+    background-size: 29%;
+  }
+
+  .footer__info{
+    font: normal 13px/12px Times;
+  }
+  
+  .footer__info_bold{
+    font: bold 13px/12px Times;;
+  }
+  
+  .footer__terms{
+    font: italic 12px/22px Times;
+  }
+
+  .footer__copyright {
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .footer{
+    width: 516px;
+    background-size: 24%;
+  }
+
+  .footer__info{
+    font: normal 11px/10px Times;
+  }
+  
+  .footer__info_bold{
+    font: bold 11px/10px Times;;
+  }
+  
+  .footer__terms{
+    font: italic 10px/20px Times;
+  }
+
+  .footer__copyright {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer{
+    width: 381px;
+    background-size: 20%;
+  }
+
+  .footer__info{
+    font: normal 9px/8px Times;
+  }
+  
+  .footer__info_bold{
+    font: bold 9px/8px Times;;
+  }
+  
+  .footer__terms{
+    font: italic 8px/18px Times;
+  }
+
+  .footer__copyright {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer{
+    width: 304px;
+    padding-top: 100px;
+    background-image: none;
+  }
+}

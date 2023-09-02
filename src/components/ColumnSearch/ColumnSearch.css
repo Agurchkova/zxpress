@@ -9,15 +9,17 @@
   background-color: #F8F4E0;
   margin-left: 16px;
 }
+
 .content__dash{
   margin: 5px 0;
 }
-.content__dash-image{
+
+.content__dash-image-short{
   object-fit: cover;
-  max-width: 98%;
+  max-width: 100%;
   box-sizing: border-box;
-  margin-left: 10px;
 }
+
 .content__input{
   font: bold 17px Times;
   background-color: white;
@@ -26,17 +28,20 @@
   width: 90%;
   padding-left: 4px;
 }
+
 .content__themes{
   font: bold 17px/21px Times;
   max-width: 200px;
   text-align: center;
 }
+
 .content__theme-link{
   font: normal 17px/21px Times;
   text-decoration: none;
   color: #493C2F;
   margin-bottom: 3px;
 }
+
 .content__similar-articles{
   font: bold 17px/22.5px Times;
   list-style: none;
@@ -45,30 +50,35 @@
 }
 
 .content__article{
+  margin-top: 8px;
+}
+
+.content__article-link{
   font: normal 17px/22.5px Times;
-  margin: 10px 0;
   color: #493C2F;
+  text-decoration: none;
 }
-.content__article:last-child{
-  margin: 10px 0 0 0;
-}
+
 .content__article-span{
   font-weight: 700;
 }
+
 .content__this-day{
   font: bold 17px/22.5px Times;
   text-align: center;
 }
+
 .content__city{
   margin: 16px 0;
   text-align: center;
   font: bold 17px/22.5px Times;
 }
+
 .content__city-link{
   text-decoration: none;
   color: #493C2F;
-
 }
+
 .content__form-select{
   font: bold 17px Times;
   background-color: white;
@@ -96,16 +106,20 @@
       margin: 0 0 0 7px;
       padding: 16px;
   }
+
   .content__form-select {
     font: bold 12px Times;
     text-overflow: ellipsis;
   }
+
   .content__input{
     font: bold 12px Times;
   }
+
   .content__themes{
     font: bold 14px/19px Times;
   }
+
   .content__theme-link{
     font: normal 14px/19px Times;
   }
@@ -114,7 +128,7 @@
     font: bold 15px/19px Times;
   }
 
-  .content__article{
+  .content__article-link{
     font: normal 14px/16px Times;
     margin: 7px 0;
   }
@@ -137,6 +151,7 @@
   .content__column-search {
       max-width: 100px;
   }
+
   .content__themes{
     font: bold 13px/15px Times;
   }
@@ -149,7 +164,7 @@
     font: bold 13px/15px Times;
   }
 
-  .content__article{
+  .content__article-link{
     font: normal 12px/13px Times;
     margin: 7px 0;
   }
@@ -170,7 +185,7 @@
   .content__dash-image {
     max-width: 100%;
     margin-left: 0;
-}
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -181,9 +196,9 @@
   }
 
   .content__input{
-    font: bold 10px Times;
+    font: bold 10px/13px Times;
     max-width: 80px;
-    padding-left: 2px;
+    padding: 2px;
   }
 
   .content__theme-link{
@@ -202,7 +217,7 @@
     font: bold 13px/16px Times;
   }
 
-  .content__article{
+  .content__article-link{
     font: normal 10px/11px Times;
     margin: 7px 0;
   }

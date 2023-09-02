@@ -6,74 +6,91 @@ function ColumnSearch() {
   return (
     <div className="content__column-search">
       <form className="content__form">
-        <input
-          className="content__input"
-          name="search"
-          type="text"
-          placeholder="Поиск..."
-        />
+        <label>
+          <input
+            className="content__input"
+            name="search"
+            type="text"
+            placeholder="Поиск..."
+          />
+        </label>
       </form>
       <div className="content__dash">
-        <img className="content__dash-image" src={dash} alt="dash" />
+        <img className="content__dash-image-short" src={dash} alt="dash" />
       </div>
       <div className="content__themes">
         Темы:
-        <Link className="content__theme-link"> Игры, </Link>
-        <Link className="content__theme-link">Программное обеспечение, </Link>
-        <Link className="content__theme-link">Пресса, </Link>
-        <Link className="content__theme-link">Аппаратное обеспечение, </Link>
-        <Link className="content__theme-link">Сеть, </Link>
-        <Link className="content__theme-link">Демосцена, </Link>
-        <Link className="content__theme-link">Люди, </Link>
-        <Link className="content__theme-link">Программирование</Link>
+        <Link className="content__theme-link link-hover"> Игры, </Link>
+        <Link className="content__theme-link link-hover">
+          Программное обеспечение,{" "}
+        </Link>
+        <Link className="content__theme-link link-hover">Пресса, </Link>
+        <Link className="content__theme-link link-hover">
+          Аппаратное обеспечение,{" "}
+        </Link>
+        <Link className="content__theme-link link-hover">Сеть, </Link>
+        <Link className="content__theme-link link-hover">Демосцена, </Link>
+        <Link className="content__theme-link link-hover">Люди, </Link>
+        <Link className="content__theme-link link-hover">Программирование</Link>
       </div>
       <div className="content__dash">
-        <img className="content__dash-image" src={dash} alt="dash" />
+        <img className="content__dash-image-short" src={dash} alt="dash" />
       </div>
       <ul className="content__similar-articles">
         Похожие статьи:
         <li className="content__article">
-          {/* временно для верстки */}
-          <span className="content__article-span">IS-DOS </span>- "IS-DOS -
-          начинающим" No 3
+          <Link className="content__article-link link-hover">
+            {/* временно для верстки */}
+            <span className="content__article-span">IS-DOS </span>- "IS-DOS -
+            начинающим" No 3
+          </Link>
         </li>
         <li className="content__article">
-          <span className="content__article-span">Открытие - </span> Электронный
-          офис - концепция WANG Freestyle-Handset.
+          <Link className="content__article-link link-hover">
+            <span className="content__article-span">Открытие - </span>{" "}
+            Электронный офис - концепция WANG Freestyle-Handset.
+          </Link>
         </li>
         <li className="content__article">
-          <span className="content__article-span">Хоббит - </span>
-          прохождение Адвентюрной игры "Хоббит, или Путешествие туда и обратно".
+          <Link className="content__article-link link-hover">
+            <span className="content__article-span">Хоббит - </span>
+            прохождение Адвентюрной игры "Хоббит, или Путешествие туда и
+            обратно".
+          </Link>
         </li>
         <li className="content__article">
-          <span className="content__article-span">Программирование - </span>
-          Качественная процедура конверсия ZX картинки в ASCII.
+          <Link className="content__article-link link-hover">
+            <span className="content__article-span">Программирование - </span>
+            Качественная процедура конверсия ZX картинки в ASCII.
+          </Link>
         </li>
         <li className="content__article">
-          <span className="content__article-span">Реклама - </span>о начале
-          подготовки к выходу в свет литературно-художественного журнала в среде
-          IS-DOS "ФАНТАДРОМ"
+          <Link className="content__article-link link-hover">
+            <span className="content__article-span">Реклама - </span>о начале
+            подготовки к выходу в свет литературно-художественного журнала в
+            среде IS-DOS "ФАНТАДРОМ"
+          </Link>
         </li>
       </ul>
       <div className="content__dash">
-        <img className="content__dash-image" src={dash} alt="dash" />
+        <img className="content__dash-image-short" src={dash} alt="dash" />
       </div>
       <div className="content__this-day">
         В этот день...&nbsp; {new Date().getDate()} августа
         {/* {new Date().getMonth("ru")} как месяц прописать? */}
         <div className="content__city">
-          <Link className="content__city-link">
+          <Link className="content__city-link link-hover">
             ACNews #22, {/* временно для верстки */}
           </Link>
-          <Link className="content__city-link">Full Pull #08, </Link>
-          <Link className="content__city-link">Plutonium #19, </Link>
-          <Link className="content__city-link">KrNews #10, </Link>
-          <Link className="content__city-link">Nicron #49, </Link>
-          <Link className="content__city-link">Nicron #48</Link>
+          <Link className="content__city-link link-hover">Full Pull #08, </Link>
+          <Link className="content__city-link link-hover">Plutonium #19, </Link>
+          <Link className="content__city-link link-hover">KrNews #10, </Link>
+          <Link className="content__city-link link-hover">Nicron #49, </Link>
+          <Link className="content__city-link link-hover">Nicron #48</Link>
         </div>
       </div>
       <div className="content__dash">
-        <img className="content__dash-image" src={dash} alt="dash" />
+        <img className="content__dash-image-short" src={dash} alt="dash" />
       </div>
       <form className="content__form">
         <select class="content__form-select" name="id">

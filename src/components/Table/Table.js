@@ -1,6 +1,7 @@
 import "./Table.css";
 import dashLong from "../../images/dash_long.png";
 import TableCatalog from "../TableCatalog/TableCatalog";
+import TableCatalog2 from "../TableCatalog2/TableCatalog2";
 import { Link } from "react-router-dom";
 
 function Table() {
@@ -16,11 +17,12 @@ function Table() {
           </tr>
         </thead>
         <TableCatalog />
+        <div className="content__dash-long">
+          <img className="content__dash-image-long" src={dashLong} alt="dash" />
+        </div>
+        <Link className="content__table-letter">A</Link>
+        <TableCatalog2 />
       </table>
-      <div className="content__dash-long">
-        <img className="content__dash-image" src={dashLong} alt="dash" />
-      </div>
-      <Link className="content__table-letter">A</Link>
     </>
   );
 }
