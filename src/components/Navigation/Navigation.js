@@ -5,15 +5,23 @@ function Navigation() {
   return (
     <nav className="navigation">
       <ul className="navigation__menu-line">
-        <Link to="/ezines" className="navigation__link link-hover">
-          Пресса ▪{" "}
-        </Link>
-        <Link to="/books" className="navigation__link link-hover">
-          Книги ▪{" "}
-        </Link>
-        <Link to="/zxnet" className="navigation__link link-hover">
-          ZXNet
-        </Link>
+        <li>
+          <Link to="/ezines" className="navigation__link link-hover">
+            Пресса
+          </Link>
+          &nbsp;{"▪"}&nbsp;
+        </li>
+        <li>
+          <Link to="/books" className="navigation__link link-hover">
+            Книги
+          </Link>
+          &nbsp;{"▪"}&nbsp;
+        </li>
+        <li>
+          <Link to="/zxnet" className="navigation__link link-hover">
+            ZXNet
+          </Link>
+        </li>
       </ul>
       <ul className="navigation__menu">
         <Link

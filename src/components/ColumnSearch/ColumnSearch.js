@@ -6,14 +6,12 @@ function ColumnSearch() {
   return (
     <div className="content__column-search">
       <form className="content__form">
-        <label>
-          <input
-            className="content__input"
-            name="search"
-            type="text"
-            placeholder="Поиск..."
-          />
-        </label>
+        <input
+          className="content__input"
+          name="search"
+          type="text"
+          placeholder="Поиск..."
+        />
       </form>
       <div className="content__dash">
         <img className="content__dash-image-short" src={dash} alt="dash" />

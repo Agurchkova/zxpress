@@ -15,7 +15,8 @@
 }
 
 .link-hover:hover{
-  border-bottom: 2px solid #493C2F;
+  /* border-bottom: 2px solid #493C2F; */
+  text-decoration-line: underline;
 }
 
 .content__table-number{
