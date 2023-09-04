@@ -27,6 +27,17 @@
   color: #493C2F;;
 }
 
+.navigation__burger-button {
+  background: none;
+  background-image: url("../../images/burger_menu__icon.svg");
+  width: 44px;
+  height: 44px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: none;
+}
+
 @media screen and (max-width: 980px) {
   .navigation {
     font: normal 18px/26px Times;
@@ -36,5 +47,30 @@
 @media screen and (max-width: 840px) {
   .navigation {
     font: normal 16px/24px Times;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .navigation__menu-line {
+      display: none;
+  }
+
+  .navigation__menu {
+    display: none;
+  }
+
+  .navigation__burger-button {
+    display: block;
+  }
+
+  .navigation {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .navigation__burger-button {
+    width: 34px;
+    height: 34px;
   }
 }

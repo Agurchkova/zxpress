@@ -1,8 +1,9 @@
 .header {
     display: flex;
     justify-content: flex-end;
-    margin: 10px auto 20px;
+    margin: 10px 0 20px;
     width: 950px;
+    align-self: center;
 }
 
 @media screen and (max-width: 980px) {
@@ -19,6 +20,19 @@
 
 @media screen and (max-width: 740px) {
     .header {
-        display: none;
+        width: 516px;
     }
   }
+
+@media screen and (max-width: 580px) {
+    .header {
+        width: 381px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .header {
+        width: 304px;
+    }
+  }
+  

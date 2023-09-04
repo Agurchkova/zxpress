@@ -12,10 +12,6 @@ function Footer() {
           Использование материалов сайта разрешено только при указании обратной
           ссылки
         </div>
-        {/* <img
-          className="footer__image"
-          src="../../images/dear_dizzy_sepia4.png"
-        /> */}
       </div>
     </section>
   );
