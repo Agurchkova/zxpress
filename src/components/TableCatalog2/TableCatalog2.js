@@ -1,8 +1,7 @@
 import "./TableCatalog2.css";
 import { Link } from "react-router-dom";
-import russian_flag from "../../images/russian_flag.png";
-import ukranian_flag from "../../images/ukranian_flag.png";
-import belorussian_flag from "../../images/belorussia_flag.png";
+import russian_flag from "../../assets/images/russian_flag.png";
+import belorussian_flag from "../../assets/images/belorussia_flag.png";
 
 function TableCatalog2() {
   return (

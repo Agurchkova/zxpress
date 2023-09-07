@@ -15,7 +15,6 @@
 }
 
 .link-hover:hover{
-  /* border-bottom: 2px solid #493C2F; */
   text-decoration-line: underline;
 }
 
@@ -80,7 +79,7 @@
   }
 
   .content__table-letter{
-    right: 5px;
+    right: 7px;
   }
 
   .content__table-number{
@@ -154,7 +153,8 @@
   .content__table-number {
     font: normal 5px Arial;
     padding-left: 2px;
-}
+  }
+
 }
 
 @media screen and (max-width: 420px) {

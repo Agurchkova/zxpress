@@ -1,4 +1,4 @@
-@import url(./vendor/normalize.css);
+@import url(./assets/vendor/normalize.css);
 
 body {
   display: flex;
@@ -12,6 +12,6 @@ body {
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   margin: 0;
-  background-image: url("./images/bg777.png");
+  background-image: url("./assets/images/bg777.png");
   background-color: #EEEBCD;
 }

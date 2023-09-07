@@ -1,6 +1,6 @@
 import "./ColumnSearch.css";
 import { Link } from "react-router-dom";
-import dash from "../../images/dash.png";
+import dash from "../../assets/images/dash.png";
 
 function ColumnSearch() {
   return (
@@ -20,11 +20,11 @@ function ColumnSearch() {
         Темы:
         <Link className="content__theme-link link-hover"> Игры, </Link>
         <Link className="content__theme-link link-hover">
-          Программное обеспечение,{" "}
+          Программное обеспечение,&nbsp;
         </Link>
         <Link className="content__theme-link link-hover">Пресса, </Link>
         <Link className="content__theme-link link-hover">
-          Аппаратное обеспечение,{" "}
+          Аппаратное обеспечение,&nbsp;
         </Link>
         <Link className="content__theme-link link-hover">Сеть, </Link>
         <Link className="content__theme-link link-hover">Демосцена, </Link>
@@ -38,7 +38,6 @@ function ColumnSearch() {
         Похожие статьи:
         <li className="content__article">
           <Link className="content__article-link link-hover">
-            {/* временно для верстки */}
             <span className="content__article-span">IS-DOS </span>- "IS-DOS -
             начинающим" No 3
           </Link>

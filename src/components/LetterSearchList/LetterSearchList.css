@@ -1,0 +1,37 @@
+.content__letter-search-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  margin: 32px 0 0;
+  font: normal 16px/21px Times;
+}
+
+.content__letter-link{
+  text-decoration: none;
+  color:#493C2F;
+  margin-right: 12px;
+}
+
+.content__letter-link:hover{
+  text-decoration-line: underline;
+}
+
+.content__letter-link:last-child{
+  margin-right: 0;
+}
+
+@media screen and (max-width: 580px) {
+  .content__letter-search-list{
+    font: normal 13px/17px Times;
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .content__letter-search-list{
+    font: normal 10px/13px Times;
+    width: 165px;
+  }
+}
