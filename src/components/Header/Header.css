@@ -20,19 +20,19 @@
 
 @media screen and (max-width: 740px) {
     .header {
-        width: 516px;
+        width: 546px;
     }
   }
 
 @media screen and (max-width: 580px) {
     .header {
-        width: 381px;
+        width: 401px;
     }
   }
 
   @media screen and (max-width: 420px) {
     .header {
-        width: 304px;
+        width: 324px;
     }
   }
   

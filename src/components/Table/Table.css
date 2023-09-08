@@ -22,10 +22,12 @@
 
 .content__table-name:nth-of-type(1){
   width: 25%;
+  margin-right: 8px;
 }
 
 .content__table-name:nth-of-type(2){
   width: 17%;
+  margin-right: 10px;
 }
 
 .content__table-name:nth-of-type(3){
@@ -68,7 +70,7 @@
 @media screen and (max-width: 980px) {
   .content__table-header {
     font: bold 15px/19px Times;
-    width: 92%;
+    width: 90%;
     margin: 0 40px 0 35px;
   }
 
@@ -131,7 +133,8 @@
   }
 
   .content__table-name:nth-of-type(4) {
-    width: 2%;
+    width: 20%;
+    margin-right: 2px;
   }
 
   .content__title {
@@ -142,8 +145,8 @@
 @media screen and (max-width: 420px) {
   .content__table-header {
     font: bold 7px/9px Times;
-    width: 165px;
-    margin: 4px 30px 0 55px;
+    width: 160px;
+    margin: 4px 25px 0 40px;
   }
 
   .content__table{
