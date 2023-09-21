@@ -1,6 +1,6 @@
 import "./ColumnMain.css";
-import Table from "../Table/Table";
-import LetterSearchList from "../LetterSearchList/LetterSearchList";
+import Table from "../../Content/СolumnMain/Table/Table";
+import LetterSearchList from "../СolumnMain/LetterSearchList/LetterSearchList";
 
 function ColumnMain() {
   return (

@@ -1,9 +1,9 @@
-import "./TableCatalog2.css";
+import "./TableCatalogWithLetter.css";
 import { Link } from "react-router-dom";
-import russian_flag from "../../assets/images/russian_flag.png";
-import belorussian_flag from "../../assets/images/belorussia_flag.png";
+import russian_flag from "../../../../../assets/images/russian_flag.png";
+import belorussian_flag from "../../../../../assets/images/belorussia_flag.png";
 
-function TableCatalog2() {
+function TableCatalogWithLetter() {
   return (
     <>
       <tbody className="content__table-catalog">
@@ -100,4 +100,4 @@ function TableCatalog2() {
   );
 }
 
-export default TableCatalog2;
+export default TableCatalogWithLetter;

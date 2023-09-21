@@ -37,8 +37,8 @@
   width: 16px;
   height: 10px;
   display: flex;
-  margin-right: 3px;
-  padding: 1px 1px 1px 1px;
+  margin-right: 5px;
+  padding: 1px;
   max-width: 100%;
 }
 
@@ -69,6 +69,16 @@
   text-align: right;
   width: 15%;
   justify-content: flex-end;
+}
+
+.RU_843 {
+  width: 16px; height: 10px;
+  background: url("../../../../../assets/images/css_sprites.png") -46px -40px;
+}
+
+.UA_804 {
+  width: 16px; height: 10px;
+  background: url("../../../../../assets/images/css_sprites.png") -82px -40px;
 }
 
 @media screen and (max-width: 980px) {
@@ -147,7 +157,7 @@
   .content__table-border{
     width: 8px;
     height: 4px;
-    margin-right: 1px;
+    margin-right: 3px;
   }
 
   .content__table-number {

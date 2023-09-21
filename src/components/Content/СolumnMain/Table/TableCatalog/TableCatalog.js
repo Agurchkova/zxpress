@@ -1,7 +1,6 @@
-import "./TableCatalog.css";
+import "../TableCatalogWithLetter/TableCatalogWithLetter";
 import { Link } from "react-router-dom";
-import russian_flag from "../../assets/images/russian_flag.png";
-import ukranian_flag from "../../assets/images/ukranian_flag.png";
+import Flag from "../../../../Common/Flag/Flag";
 
 function TableCatalog() {
   return (
@@ -13,11 +12,7 @@ function TableCatalog() {
         </td>
         <td className="content__table-cell">
           <div className="content__table-border">
-            <img
-              className="content__table-flag"
-              src={russian_flag}
-              alt="Флаг России"
-            />
+            <Flag />
           </div>
           Пермь
         </td>
@@ -31,11 +26,7 @@ function TableCatalog() {
         </td>
         <td className="content__table-cell">
           <div className="content__table-border">
-            <img
-              className="content__table-flag"
-              src={russian_flag}
-              alt="Флаг России"
-            />
+            <Flag />
           </div>
           Москва
         </td>
@@ -49,11 +40,7 @@ function TableCatalog() {
         </td>
         <td className="content__table-cell content__table-cell_wrap">
           <div className="content__table-border">
-            <img
-              className="content__table-flag"
-              src={russian_flag}
-              alt="Флаг России"
-            />
+            <Flag />
           </div>
           Санкт-Петербург
         </td>
@@ -68,11 +55,7 @@ function TableCatalog() {
         </td>
         <td className="content__table-cell">
           <div className="content__table-border">
-            <img
-              className="content__table-flag"
-              src={ukranian_flag}
-              alt="Флаг Украины"
-            />
+            <Flag className="UA_804 content__table-flag" />
           </div>
           Харьков
         </td>
@@ -86,11 +69,7 @@ function TableCatalog() {
         </td>
         <td className="content__table-cell">
           <div className="content__table-border">
-            <img
-              className="content__table-flag"
-              src={russian_flag}
-              alt="Флаг России"
-            />
+            <Flag />
           </div>
           Москва
         </td>

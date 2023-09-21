@@ -1,6 +1,6 @@
 import "./ColumnSearch.css";
 import { Link } from "react-router-dom";
-import dash from "../../assets/images/dash.png";
+import dash from "../../../assets/images/dash.png";
 
 function ColumnSearch() {
   return (

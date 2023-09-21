@@ -1,7 +1,6 @@
-import './App.css';
-// import { Route, Routes } from "react-router-dom";
+import "./App.css";
 
-import Main from "../Main/Main";
+import Main from "../Common/Main/Main";
 
 function App() {
   return (
